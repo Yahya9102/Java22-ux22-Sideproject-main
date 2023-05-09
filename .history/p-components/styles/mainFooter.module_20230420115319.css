@@ -1,0 +1,20 @@
+.main_footer {
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  min-height: 6rem;
+  max-height: 6rem;
+  padding-top: 1%;
+}
+
+.image_post {
+  filter: none;
+}
+
+/*filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url() | initial | inherit;*/

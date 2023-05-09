@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=PP+Neue+Machina&display=swap");
+.body_div {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}

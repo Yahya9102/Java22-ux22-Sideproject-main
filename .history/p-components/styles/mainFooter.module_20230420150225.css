@@ -1,0 +1,11 @@
+.main_footer {
+  background-color: rgba(141, 128, 242, 1);
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid black;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}

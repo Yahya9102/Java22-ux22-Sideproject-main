@@ -1,0 +1,32 @@
+/* Add a background color and border to the fieldset */
+.fieldset_body {
+  background-color: #f9f9f9;
+  border: 2px solid rgb(23, 9, 9);
+  border-radius: 4px;
+  padding: 10px;
+  width: 70%;
+}
+
+.table_button {
+  background-color: #41a3e1;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-left: 80%;
+}
+
+.fieldset_row {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.tableHeader_body {
+  font-size: 20px;
+  text-align: left;
+}
+
+.tableHeader_options {
+  font-size: 20px;
+  text-align: right;
+}

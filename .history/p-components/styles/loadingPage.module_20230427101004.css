@@ -1,0 +1,9 @@
+.loadingPage_body {
+  background-color: #6551ff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadingPage_Top {
+  width: 4rem;
+}

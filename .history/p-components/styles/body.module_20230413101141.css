@@ -1,0 +1,22 @@
+/* Add a background color and border to the fieldset */
+.fieldset_body {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Reduce the font size of the table headers for mobile */
+@media screen and (max-width: 480px) {
+  .table-header {
+    font-size: 16px;
+  }
+}
+
+/* Make the table responsive for mobile */
+@media screen and (max-width: 480px) {
+  /* Set a fixed width for the table cells with the data-label attribute */
+  td[data-label="Description"] {
+    width: 150px;
+  }
+}

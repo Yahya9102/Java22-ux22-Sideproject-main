@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+.guidelinePage_body {
+  background-color: rgba(141, 128, 242, 1);
+
+  width: 100%;
+  font-family: "Space Grotesk";
+  border-radius: 20px;
+  border: 10px;
+}
+
+.h1 {
+  color: #d7ff63;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 50px;
+  text-shadow: 0px 4px rgb(0, 0, 0, 0.25);
+}
+
+.guidelinePage_Top {
+  width: 80%;
+  height: 10%;
+  justify-content: center;
+  position: relative;
+  left: 15%;
+  padding-top: 8em;
+}
+
+.onionImage {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  padding-left: 3rem;
+}
+.onionText {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.oniontext_div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.casperWithFace {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.casper_h1 {
+  color: #d7ff63;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 50px;
+  text-shadow: 0px 4px rgb(0, 0, 0, 0.25);
+}
+
+.guideline_rules_right {
+  color: white;
+  width: 60%;
+  float: right;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.guideline_h2 {
+  font-size: 28px;
+}
+
+.guideline_rules_left {
+  color: white;
+  padding-left: 2rem;
+  float: left;
+}
+
+.guideline_p {
+  width: 50%;
+}
+
+.guideline_rules_center {
+  padding-top: 3rem;
+  color: white;
+  width: 100%;
+  display: grid;
+  padding-left: 20%;
+}
+
+.guideline_p_center {
+  width: 80%;
+}
+
+.guideline_fieldset_bottom {
+  border: 3px solid rgb(135, 60, 60);
+  color: rgb(0, 0, 0);
+  width: 80%;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 300;
+}
+
+.fieldset_div {
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.fieldset_p {
+  padding: 5%;
+}
+
+.button {
+  background-color: #ceff42;
+  width: 11em;
+  height: 3.5rem;
+  border-radius: 50px;
+  border: solid 2px #1e1e1e;
+  font-size: 24px;
+  font-weight: 500;
+}
+.button_div {
+  padding: 10%;
+
+  display: flex;
+  justify-content: left;
+  margin-left: 5rem;
+}

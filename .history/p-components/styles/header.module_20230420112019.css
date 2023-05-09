@@ -1,0 +1,9 @@
+.header_body {
+  border: 1px solid black;
+  height: 20%;
+}
+
+.menu_title {
+  margin-left: 45vw;
+  /* background-color: aqua; */
+}

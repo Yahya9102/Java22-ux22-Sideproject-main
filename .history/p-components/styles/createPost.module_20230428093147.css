@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+.form_body {
+  height: 100%;
+  background-color: #f5f5f5;
+  padding-bottom: 100px;
+}
+
+.input_label {
+  padding-left: 10px;
+}
+.button_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.createpost_button {
+  background-color: #ceff42;
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+.link_P {
+  display: flex;
+  margin: 10px;
+  background-color: #ceff42;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 25px;
+}
+
+.input_fields_contact {
+  border: solid 2px;
+  width: 45vw;
+  height: 8vh;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Space Grotesk";
+  padding-left: 5px;
+}
+
+.contact_info_label {
+  padding-left: 10px;
+}
+
+.contact_frames {
+  display: flex;
+}

@@ -1,0 +1,10 @@
+.main_footer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  min-height: 6rem;
+  max-height: 6rem;
+  border-radius: 0px 0px 15px 15px;
+  background-color: rgba(141, 128, 242, 1);
+  position: fixed;
+}

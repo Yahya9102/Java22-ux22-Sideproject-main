@@ -1,0 +1,11 @@
+.loadingPage_body {
+  background-color: #6551ff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadingPage_Top {
+  display: flex;
+  width: 4rem;
+  height: 10rem;
+}

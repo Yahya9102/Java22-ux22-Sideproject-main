@@ -1,0 +1,11 @@
+.createpost_button {
+  background-color: #ceff42;
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+.input {
+  color: rebeccapurple;
+}

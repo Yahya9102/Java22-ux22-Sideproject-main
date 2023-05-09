@@ -1,0 +1,8 @@
+.input_fields {
+  border: solid 2px;
+
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Space Grotesk";
+  padding-left: 5px;
+}

@@ -1,0 +1,29 @@
+.input_fields {
+  border: solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Space Grotesk";
+  padding-left: 5px;
+}
+
+.adminLogin_button {
+  background-color: #ceff42;
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 2px;
+  margin-left: 18%;
+}
+
+.login_body {
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.label {
+  display: flex;
+  margin-bottom: -30px;
+  justify-content: center;
+}

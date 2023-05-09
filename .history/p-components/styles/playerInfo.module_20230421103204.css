@@ -1,0 +1,72 @@
+/* Add a background color and border to the fieldset */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+.fieldset_body {
+  background: linear-gradient(to bottom, rgba(30, 30, 30, 1) 23%, #f9f9f9 20%);
+  border: 3px solid rgb(23, 9, 9);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+/*
+.table_button {
+  background-color: #c1dff2;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-left: 75%;
+}
+*/
+
+.playerInfo_body {
+  padding-bottom: 100px;
+}
+
+.user_location {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Space Grotesk";
+  margin-bottom: 10%;
+}
+
+.tableHeader_PlayerInfo {
+  font-family: "Space Grotesk";
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(245, 245, 245, 1);
+  padding-left: 5%;
+}
+
+/*
+.table_button_wrapper {
+  align-items: center;
+  color: red;
+}
+
+.heartimage {
+  background-image: none;
+  width: 7%;
+  margin-top: 4px;
+}
+*/
+.playerInfo_h2 {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  padding-left: 5%;
+}
+
+.playerInfo_h2_title {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 5%;
+}
+
+.playerInfo_p {
+  font-family: "Space Grotesk";
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 5%;
+}

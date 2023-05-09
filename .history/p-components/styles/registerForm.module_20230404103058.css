@@ -1,0 +1,11 @@
+.navbar_matchside {
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 10px;
+}
+.form {
+  color: rgba(232, 222, 248, 1);
+  margin: 5px;
+  padding: 2px;
+  display: flex;
+}

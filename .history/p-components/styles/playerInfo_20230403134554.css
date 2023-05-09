@@ -1,0 +1,13 @@
+.player_info {
+  background: radial-gradient(
+      122.77% 122.77% at 24.1% -15.66%,
+      rgba(141, 128, 242, 0.6) 0%,
+      rgba(141, 128, 242, 0.144) 100%
+    )
+    #25232a;
+  border-radius: 12px;
+  display: flex;
+  width: 95%;
+  height: 30vh;
+  color: rgba(230, 225, 229, 1);
+}

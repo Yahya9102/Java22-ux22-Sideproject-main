@@ -1,0 +1,8 @@
+.body_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 1);
+}

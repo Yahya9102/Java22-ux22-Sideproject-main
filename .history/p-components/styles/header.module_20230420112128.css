@@ -1,0 +1,10 @@
+.header_body {
+  border: 2px solid black;
+  height: 5vh;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.menu_title {
+  margin-left: 36vw;
+  /* background-color: aqua; */
+}

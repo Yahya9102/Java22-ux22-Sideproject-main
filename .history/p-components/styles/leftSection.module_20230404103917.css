@@ -1,0 +1,28 @@
+.left_section {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+  flex-basis: 20%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}
+.navbar_matchside {
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 10px;
+}
+.form {
+  color: rgba(232, 222, 248, 1);
+  margin: 5px;
+  padding: 2px;
+  display: flex;
+}
+
+.submit_button {
+  background-color: aqua;
+}

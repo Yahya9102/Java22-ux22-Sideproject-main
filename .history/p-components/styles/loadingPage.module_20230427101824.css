@@ -1,0 +1,26 @@
+.loadingPage_body {
+  background-color: #6551ff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadingPage_Top {
+  width: 80%;
+  height: 10%;
+
+  justify-content: center;
+  position: relative;
+  left: 15%;
+  padding-top: 20%;
+}
+
+.h1 {
+  color: #d7ff63;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.p {
+  color: white;
+  font-size: 21px;
+}

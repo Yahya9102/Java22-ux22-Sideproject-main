@@ -1,0 +1,90 @@
+import { NextPage } from "next"
+import styles from "p-components/styles/playerInfo.module.css"
+import { useEffect, useState } from "react"
+//import Image from "next/image"
+//import heartimage from "../public/heartimage.png"
+
+interface User {
+  name: string
+  title: string
+  discord: string
+  infoPost: string
+}
+
+const Body: NextPage<User> = ({}) => {
+  const [users, setUsers] = useState<User[]>([])
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch("http://localhost:3000/api")
+      const data = await response.json()
+      setUsers(data)
+    }
+    fetchData()
+  }, [])
+
+  return (
+    <div>
+      {users && (
+        <fieldset className={styles.fieldset_body}>
+          <table>
+            <thead>
+              <tr>
+                <th className={styles.tableHeader_PlayerInfo}>
+                  {setUsers.name}
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>
+                  <fieldset className={styles.fieldset_row}>
+                    <h2 className={styles.playerInfo_h2}>Hej</h2>
+                    <br />
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Officiis optio ipsum dolorem molestiae ut commodi repellat
+                      illum dolor ab error, tenetur maxime facere cupiditate
+                      excepturi perferendis. Dolore consectetur aut doloribus?
+                    </p>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <nav>
+                      <br />
+                      <h2 className={styles.playerInfo_h2}>
+                        <strong>Contact</strong>
+                      </h2>{" "}
+                      <br />
+                      <a href="https://discord.com/">
+                        <strong>Discord: fakedisc</strong>
+                      </a>
+                    </nav>
+                  </div>
+                </td>
+              </tr>
+              {/**   <tr>
+                <td>
+                  <div className={styles.table_button_wrapper}>
+                    <Image
+                      src={heartimage}
+                      className={styles.heartimage}
+                      alt="Heart icon"
+                    />
+                    <button className={styles.table_button}>Reply</button>
+                  </div>
+                </td>
+              </tr> */}
+            </tbody>
+          </table>
+        </fieldset>
+      )}
+    </div>
+  )
+}
+
+export default Body

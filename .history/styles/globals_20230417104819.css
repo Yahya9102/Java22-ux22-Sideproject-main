@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.index_posts_text {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.header {
+  background-color: #fff;
+
+  display: flex;
+
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid black;
+}
+
+.menu_title {
+  display: flex;
+
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+
+  padding-top: 1rem;
+}

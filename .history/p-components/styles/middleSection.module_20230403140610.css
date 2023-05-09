@@ -1,0 +1,9 @@
+.middle_section {
+  flex-basis: 55%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}

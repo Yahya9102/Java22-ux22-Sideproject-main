@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Sidebar Example</title>
+
+    <link rel="stylesheet" href="matchside.css" />
+  </head>
+  <body>
+    <div class="matchside-header"></div>
+    <div class="main">
+      <div
+        class="left-sidebar"
+        style="
+          background: linear-gradient(
+              0deg,
+              rgba(208, 188, 255, 0.05),
+              rgba(208, 188, 255, 0.05)
+            ),
+            #1c1b1f;
+        "
+      >
+        <div class="navbar-matchside">
+          <div class="link-container matchning">
+            <div class="box"></div>
+            <a href="matchside.html">Matchning</a>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100+
+            </p>
+          </div>
+          <div class="link-container chatt">
+            <div class="box"></div>
+            <a href="matchside.html">Chatt</a>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-bar" style="background-color: rgba(37, 35, 42, 1)">
+        <p>This is the main content section.</p>
+        <div class="table-container">
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+            </tr>
+            <tr>
+              <td>Username1</td>
+              <td>Language1</td>
+              <td>More info</td>
+            </tr>
+          </table>
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+            </tr>
+            <tr>
+              <td>Username2</td>
+              <td>Language2</td>
+              <td>More info</td>
+            </tr>
+          </table>
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+            </tr>
+            <tr>
+              <td>Username1</td>
+              <td>Language1</td>
+              <td>More info</td>
+            </tr>
+          </table>
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+              <td>USERNAME</td>
+            </tr>
+            <tr>
+              <td>Username2</td>
+              <td>Language2</td>
+              <td>More info</td>
+            </tr>
+          </table>
+
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+            </tr>
+            <tr>
+              <td>Username1</td>
+              <td>Language1</td>
+              <td>More info</td>
+            </tr>
+          </table>
+          <table class="player-info">
+            <tr>
+              <th><img src="/media/Media.png" alt="*" /></th>
+            </tr>
+            <tr>
+              <td>Username2</td>
+              <td>Language2</td>
+              <td>More info</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="right-sidebar">
+        <h2 id="matchside-right-top-text">What are you searching for?</h2>
+        <div class="gender">
+          <h3>Gender</h3>
+          <div class="gender-options">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="all">All</label>
+            <input type="radio" id="all" name="gender" value="all" />
+          </div>
+        </div>
+
+        <div class="age">
+          <h3>Age</h3>
+          <input type="range" id="age" name="age" min="15" max="80" />
+        </div>
+        <div class="platform">
+          <h3>Platform</h3>
+          <div class="platform-options">
+            <input type="checkbox" id="pc" name="platform" value="pc" />
+            <label for="pc">PC</label>
+            <input
+              type="checkbox"
+              id="console"
+              name="platform"
+              value="console"
+            />
+            <label for="console">Console</label>
+          </div>
+        </div>
+        <div class="games">
+          <h3>Games</h3>
+          <div class="games-options">
+            <input type="checkbox" id="rpg" name="games" value="rpg" />
+            <label for="rpg">RPG</label>
+            <br />
+            <input
+              type="checkbox"
+              id="action-adventure"
+              name="games"
+              value="action-adventure"
+            />
+            <label for="action-adventure">Action-Adventure</label>
+            <br />
+            <input type="checkbox" id="fantasy" name="games" value="fantasy" />
+            <label for="fantasy">Fantasy</label>
+            <br />
+            <input
+              type="checkbox"
+              id="first-person-shooter"
+              name="games"
+              value="first-person-shooter"
+            />
+            <label for="first-person-shooter">First-Person-Shooter</label>
+            <br />
+            <input
+              type="checkbox"
+              id="strategy"
+              name="games"
+              value="strategy"
+            />
+            <label for="strategy">Strategy</label>
+            <br />
+            <input type="checkbox" id="puzzles" name="games" value="puzzles" />
+            <label for="puzzles">Puzzles</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

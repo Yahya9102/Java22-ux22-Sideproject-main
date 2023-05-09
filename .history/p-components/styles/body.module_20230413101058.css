@@ -1,0 +1,57 @@
+/* Add a background color and border to the fieldset */
+.fieldset_body {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Add a background color and border to the fieldset */
+.fieldset {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Reduce the font size of the table headers for mobile */
+@media screen and (max-width: 480px) {
+  .table-header {
+    font-size: 16px;
+  }
+}
+
+/* Make the table responsive for mobile */
+@media screen and (max-width: 480px) {
+  /* Hide the table headers */
+  thead {
+    display: none;
+  }
+
+  /* Display the table rows as columns */
+  tr {
+    display: block;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Display the table cells as block elements */
+  td {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+  }
+
+  /* Set a fixed width for the table cells with the data-label attribute */
+  td[data-label="Description"] {
+    width: 150px;
+  }
+
+  /* Add a pseudo-element to display the table header as a label for mobile */
+  td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=PP+Neue+Machina&display=swap");
+.body_div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}
+
+.left_section {
+  flex-basis: 20%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}
+
+.middle_section {
+  flex-basis: 55%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}
+
+.right_section {
+  flex-basis: 20%;
+  margin-left: 20%;
+  margin-top: 4.6%;
+  background: linear-gradient(
+    133.99deg,
+    rgba(141, 128, 242, 0.4) 24.1%,
+    rgba(60, 55, 101, 0.4) 154.62%
+  );
+}
+
+.player_info {
+  right: 30%;
+  background: radial-gradient(
+      122.77% 122.77% at 24.1% -15.66%,
+      rgba(141, 128, 242, 0.6) 0%,
+      rgba(141, 128, 242, 0.144) 100%
+    )
+    #25232a;
+  border-radius: 12px;
+  display: flex;
+  width: 95%;
+  height: 30vh;
+  color: rgba(230, 225, 229, 1);
+}
+
+.table_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 5%;
+}
+
+.table_container table {
+  margin-bottom: 10px;
+}
+
+.matchside-header {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background: rgba(37, 35, 42, 1);
+}
+
+.navbar_matchside {
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.link_container_matchning {
+  background-color: rgba(74, 68, 88, 1);
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.link_container_chatt {
+  background-color: rgba(74, 68, 88, 1);
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(232, 222, 248, 1);
+  border-radius: 50%;
+  margin: 5px;
+  flex-grow: 0;
+}
+
+.link_container_matchning a {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.link_container_chatt a {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.link_container_matchning p {
+  color: rgba(232, 222, 248, 1);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.link_container_chatt p {
+  color: rgba(232, 222, 248, 1);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.link_container_matchning {
+  display: flex;
+  flex-direction: row;
+}
+
+.link_container_chatt {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender h3,
+.age h3,
+.platform h3,
+.games h3 {
+  background-color: rgba(141, 128, 242, 1);
+  padding: 10px;
+  margin: 30px 0 20px;
+
+  text-align: center;
+  width: 100px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.gender_options,
+.platform_options,
+.games_options {
+  margin-bottom: 50px;
+  margin-left: px;
+}
+
+.platform_options label,
+.games_options label {
+  margin-left: 5px;
+  padding-right: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.gender_options label {
+  padding: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.age input[type="range"] {
+  margin-top: 25px;
+  width: 75%;
+  background: #ffffff;
+  opacity: 0.58;
+}
+
+.gender_options {
+  display: flex;
+  padding: 2px;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=PP+Neue+Machina&display=swap");
+
+.body_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.left_sidebar {
+  display: flex;
+  position: absolute;
+}
+.middle_bar {
+  display: flex;
+  position: absolute;
+  left: 20%;
+}
+.right_sidebar {
+  position: absolute;
+  display: flex;
+  right: 2%;
+}
+.player_info {
+  background: radial-gradient(
+      122.77% 122.77% at 24.1% -15.66%,
+      rgba(141, 128, 242, 0.6) 0%,
+      rgba(141, 128, 242, 0.144) 100%
+    )
+    #25232a;
+  border-radius: 12px;
+  width: 25%;
+  height: 20vh;
+}
+
+.main {
+  display: flex;
+  color: #25232a;
+}
+
+.table_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.matchside_header {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background: rgba(37, 35, 42, 1);
+}
+
+.navbar_matchside {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.link_container {
+  background-color: rgba(74, 68, 88, 1);
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(232, 222, 248, 1);
+  border-radius: 50%;
+  margin: 5px;
+  flex-grow: 0;
+}
+
+.link_container a {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    .link-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+.link_container p {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.link_container_matchning {
+  order: 1;
+}
+
+.link_container_chatt {
+  order: 2;
+}
+
+.link_container_matchning {
+  display: flex;
+  flex-direction: row;
+}
+
+.link_container_chatt {
+  display: flex;
+  flex-direction: row;
+}
+
+.right_sidebar {
+  background: linear-gradient(
+    133.99deg,
+    rgba(141, 128, 242, 0.4) 24.1%,
+    rgba(60, 55, 101, 0.4) 154.62%
+  );
+  color: #fff;
+  padding: 20px;
+  height: inherit;
+}
+
+.gender h3,
+.age h3,
+.platform h3,
+.games h3 {
+  background-color: rgba(141, 128, 242, 1);
+  padding: 10px;
+  margin: 30px 0 20px;
+  margin-left: -20px;
+  text-align: center;
+  width: 100px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.gender_options,
+.platform_options,
+.games_options {
+  margin-bottom: 50px;
+  margin-left: px;
+}
+
+.platform_options label,
+.games_options label {
+  margin-left: 5px;
+  padding-right: 40px;
+}
+
+.gender_options label {
+  padding: 20px;
+}
+
+.age input[type="range"] {
+  margin-top: 25px;
+  width: 60%;
+  background: #ffffff;
+  opacity: 0.38;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  margin-right: 30px;
+}
+
+.gender_options {
+  display: flex;
+  align-items: center;
+}
+
+/*
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 2px solid #ccc;
+
+  width: 1.25em;
+  height: 1.25em;
+  margin-right: 0.5em;
+  position: relative;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #000;
+}
+*/
+/*
+#matchside_right_top_text {
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 17%;
+  font-family: "PP Neue Machina", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+*/
+/*
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: GM Purple - Dark Gradient;
+  border: 2px solid rgb(203, 180, 180);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(179, 173, 229);
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  opacity: 1;
+}
+*/

@@ -1,0 +1,66 @@
+/* rightSection.module.css */
+.right_section {
+  display: flex;
+  position: fixed;
+  flex-basis: 20%;
+  margin-top: 4.6%;
+  background: linear-gradient(
+    133.99deg,
+    rgba(141, 128, 242, 0.4) 24.1%,
+    rgba(60, 55, 101, 0.4) 154.62%
+  );
+}
+
+.gender h3,
+.age h3,
+.platform h3,
+.games h3 {
+  background-color: rgba(141, 128, 242, 1);
+  padding: 10px;
+  margin: 30px 0 20px;
+  text-align: center;
+  width: 100px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.gender_options,
+.platform_options,
+.games_options {
+  margin-bottom: 50px;
+  margin-left: px;
+}
+
+.platform_options label,
+.games_options label {
+  margin-left: 5px;
+  padding-right: 40px;
+  color: rgba(232, 222, 248, 1);
+}
+
+.gender_options label {
+  padding: 20px;
+  color: rgba(232, 222, 248, 1);
+}
+
+.age input[type="range"] {
+  margin-top: 25px;
+  width: 75%;
+  background: #ffffff;
+  opacity: 0.58;
+}
+
+.gender_options {
+  display: flex;
+  padding: 2px;
+}
+
+#matchside_right_top_text {
+  margin-top: 2px;
+  font-family: "PP Neue Machina", sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}

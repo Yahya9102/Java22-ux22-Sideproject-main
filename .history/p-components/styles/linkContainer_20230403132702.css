@@ -1,0 +1,72 @@
+/* Copy the linkContainer-related CSS styles here */
+.link_container_matchning {
+  background-color: rgba(74, 68, 88, 1);
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.link_container_chatt {
+  width: 20vw;
+  background-color: rgba(74, 68, 88, 1);
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(232, 222, 248, 1);
+  border-radius: 50%;
+  margin: 5px;
+  flex-grow: 0;
+}
+
+.link_container_matchning a {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.link_container_chatt a {
+  color: rgba(232, 222, 248, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.link_container_matchning p {
+  color: rgba(232, 222, 248, 1);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.link_container_chatt p {
+  color: rgba(232, 222, 248, 1);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  flex-grow: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.link_container_matchning {
+  display: flex;
+  flex-direction: row;
+}
+
+.link_container_chatt {
+  display: flex;
+  flex-direction: row;
+}

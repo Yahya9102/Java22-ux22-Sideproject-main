@@ -1,0 +1,9 @@
+.right_section {
+  flex-basis: 20%;
+  margin-top: 4.6%;
+  background: linear-gradient(
+    133.99deg,
+    rgba(141, 128, 242, 0.4) 24.1%,
+    rgba(60, 55, 101, 0.4) 154.62%
+  );
+}

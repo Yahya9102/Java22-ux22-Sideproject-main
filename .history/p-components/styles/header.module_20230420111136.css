@@ -1,0 +1,15 @@
+.header {
+  background-color: #fff;
+
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid black;
+}
+
+.menu_title {
+  margin-left: 45vw;
+  /* background-color: aqua; */
+}
+
+.header_body {
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+import { NextPage } from "next"
+import Image from "next/image"
+import styles from "./styles/header.module.css"
+// import "../media/hamburger-menu.png"
+
+interface Props {}
+
+const Header: NextPage<Props> = ({}) => {
+  return (
+    <div className={styles.header_body}>
+      <header>
+        <div className={styles.menu_title}>
+          <strong>GameMatch</strong>
+        </div>
+      </header>
+    </div>
+  )
+}
+
+export default Header

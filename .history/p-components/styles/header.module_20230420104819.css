@@ -1,0 +1,40 @@
+.header {
+  background-color: #fff;
+
+  display: flex;
+
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid black;
+  width: 100vw;
+}
+
+.header_body {
+  display: fl;
+  width: 100vw;
+}
+.menu_icon_div {
+  display: flex;
+  align-items: flex-end;
+  width: 25%;
+  height: 100%;
+  float: left;
+  /* background-color: blueviolet; */
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.menu_title {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-top: 1rem;
+}
+
+.menu_icon {
+  width: 27px;
+  height: 24px;
+}

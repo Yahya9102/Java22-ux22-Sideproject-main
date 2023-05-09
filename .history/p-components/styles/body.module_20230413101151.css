@@ -1,0 +1,7 @@
+/* Add a background color and border to the fieldset */
+.fieldset_body {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}

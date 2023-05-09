@@ -1,0 +1,35 @@
+.middle_section {
+  flex-basis: 55%;
+  background: linear-gradient(
+      0deg,
+      rgba(208, 188, 255, 0.05),
+      rgba(208, 188, 255, 0.05)
+    ),
+    #1c1b1f;
+}
+
+.player_info {
+  background: radial-gradient(
+      122.77% 122.77% at 24.1% -15.66%,
+      rgba(141, 128, 242, 0.6) 0%,
+      rgba(141, 128, 242, 0.144) 100%
+    )
+    #25232a;
+  border-radius: 12px;
+  display: flex;
+  width: 95%;
+  height: 30vh;
+  color: rgba(230, 225, 229, 1);
+}
+
+.table_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 5%;
+}
+
+.table_container table {
+  margin-bottom: 10px;
+}
