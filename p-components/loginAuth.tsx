@@ -5,7 +5,8 @@ import { useEffect } from "react"
 const loginAuth = (WrappedComponent: NextPage<any>) => {
   const AuthenticatedComponent: React.FC = (props) => {
     const router = useRouter()
-    const isAuthenticated = sessionStorage.getItem("email")
+    const isAuthenticated =
+      typeof sessionStorage !== "undefined" && sessionStorage.getItem("email") //check this later
 
     useEffect(() => {
       if (!isAuthenticated) {
