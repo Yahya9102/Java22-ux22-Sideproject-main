@@ -11,9 +11,12 @@
     ),
     radial-gradient(
       122.77% 122.77% at 24.1% -15.66%,
-      rgb(150, 140, 228),
-      #c3d494 100%
+      rgba(141, 128, 242, 1),
+      #ceff42 100%
     );
+
+  background-color: rgba(141, 128, 242, 1);
+  background-image: linear-gradient(to bottom right);
 
   border: 3px solid rgb(23, 9, 9);
   border-radius: 10px;
